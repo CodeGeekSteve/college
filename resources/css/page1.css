@@ -1,0 +1,106 @@
+html{
+  font-size: 16px;
+  opacity: 0.9;
+  color: white;
+}
+
+body{
+  font-family: helvetica;
+  background-color: black;
+}
+
+/*Header*/
+.container{
+  border-bottom: 3px solid teal;
+  width: 100%;
+  display: flex;
+  line-height: 2rem;
+  justify-content: space-between;
+
+}
+
+.logo img{
+  width: 10%;
+  border-right: 2px solid white;
+  vertical-align: middle;
+  padding-right: 2px;
+}
+
+header span{
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.home-screen a{
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  vertical-align: middle;
+  line-height: 4rem;
+  margin-right: 3rem;
+}
+
+.home-screen a:hover{
+  border: 1px solid black;
+  padding: 5px;
+  background-color:aquamarine ;
+  opacity: 0.9;
+  color: black;
+}
+
+/*Univ list*/
+
+.univ-list{
+  display: flex;
+  margin-top: 3rem;
+}
+
+.univ-body{
+  border: 2px solid gold;
+  padding: 10px;
+  margin: 2rem;
+
+}
+
+.univ-body img{
+  max-width: 30rem;
+  height: 20rem;
+}
+
+
+.univ-list li{
+  text-decoration: none;
+}
+
+.univ-list a{
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  vertical-align: middle;
+  line-height: 4rem;
+  margin-right: 3rem;
+}
+
+.univ-list a:hover{
+  padding: 5px;
+  background-color:aquamarine ;
+  opacity: 0.9;
+  color: black;
+}
+
+/* footer */
+footer{
+margin: 3rem 0;
+background-color: black;
+height: 9rem;
+line-height: 1rem;
+border-top: 3px solid teal;
+color: white;
+}
+
+.foot span,
+h3{
+margin: 6rem 0 0 0;
